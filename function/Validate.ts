@@ -1,10 +1,10 @@
 interface ValidationOptions {
-  value: any;
-  required: any;
+  value: string;
+  required: Boolean;
   type: any;
-  identify?: any;
-  min?: any;
-  max?: any;
+  identify?: string;
+  min?: number;
+  max?: number;
 }
 
 interface Objects {
